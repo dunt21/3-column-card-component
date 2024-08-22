@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  position: relative;
+  top: 5rem;
+}
+
+.cards {
+  padding: 2.3rem;
+}
+
+p {
+  line-height: 1.3rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 11rem;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 12px;
+  width: 10.5rem;
+}
+
+img {
+  width: 3.3rem;
+}
+
+button {
+  padding: 0.6rem 1.4rem;
+  border-radius: 2rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+/* button:hover {
+  background-color: #dce1e6;
+} */
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+#btn1 {
+  color: hsl(31, 77%, 52%);
+}
+
+#btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+#btn2 {
+  color: hsl(184, 100%, 22%);
+}
+
+#btn2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+#btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+#btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 10rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 755px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
